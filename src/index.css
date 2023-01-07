@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Fira Code", monospace;
+  color:  hsl(268, 100%, 58%);
+  background-color: hsl(139, 83%, 2%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #22064b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #450e97;
+  border-radius: 2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5613bb;
+}
