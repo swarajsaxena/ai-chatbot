@@ -18,7 +18,7 @@ const App = () => {
 	]);
 
 	const getEngines = async () => {
-		fetch("http://localhost:5000/models")
+		fetch("https://ai-chatbot-backend-ss.vercel.app/:5000/models")
 			.then(res => res.json())
 			.then(data => setModels(data.models));
 	};
